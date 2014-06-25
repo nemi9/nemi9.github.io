@@ -1,7 +1,9 @@
 $(document).ready(function() {
+	
+	
 
-
-$("#names, #places").sortable({containment: 'document', tolerance: 'pointer',
+$(".shopping_list").click(function() {
+$("#names, #places").sortable({containment: 'parent', tolerance: 'pointer',
    cursor: 'pointer', revert: true, opacity: 0.60, connectWith:"#names, #places"}) 
      
 	 
@@ -148,3 +150,4 @@ $(document).ready(function() {
 	
 
 
+});
