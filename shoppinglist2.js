@@ -1,10 +1,11 @@
- $(document).ready(function() {
+
+  $(document).ready(function() {
         
      
-     $(".btn").click(function (e) {
-    e.preventDefault();
-    var text = $("input[name='add1']").val();
-    var $li = $("<li class='ui-state-default'/>").text(text);
+    $(".btn").click(function (e) {
+               e.preventDefault();
+               var text = $("input[name='add1']").val();
+               var $li = $("<li class='ui-state-default'/>").text(text);
     $("#names").append($li);
     $("#names").sortable('refresh');
 });
@@ -16,22 +17,23 @@
             cursor: 'pointer', 
             revert: true, 
             opacity: 0.60,
-         connectWith:"#places,#names",
-            update: function(event, ui) {
-                   content = $(this).text();
-                   $('#sort_status').text(content);
+            connectWith:"#sale,#home,#names",
+      update: function(event, ui) {
+            content = $(this).text();
+      $('#sort_status').text(content);
             }
         })
-        $("#home").sortable({
+     
+      $("#home").sortable({
             containment: 'document', 
             tolerance: 'pointer',
             cursor: 'pointer', 
             revert: true, 
             opacity: 0.60,
-            connectWith:"#names,#places",
-            update: function(event, ui) {
-                     content = $(this).text();
-                     $('#sort_status').text(content); 
+            connectWith:"#names,#home,#sale",
+       update: function(event, ui) {
+            content = $(this).text();
+       $('#sort_status').text(content); 
                 
                      
             }
@@ -40,21 +42,20 @@
 
 
 
-         $("#sale").sortable({
+        $("#sale").sortable({
             containment: 'document', 
             tolerance: 'pointer',
             cursor: 'pointer', 
             revert: true, 
             opacity: 0.60,
-            connectWith:"#sale,#names,#places",
-            update: function(event, ui) {
-                     content = $(this).text();
-                     $('#sort_status').text(content);
+            connectWith:"#sale,#names,#home",
+        update: function(event, ui) {
+            content = $(this).text();
+        $('#sort_status').text(content);
 
 
      }
         })
 });
- 
  
  
