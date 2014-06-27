@@ -3,10 +3,23 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
+
+<script src="my.js" type="text/javascript" defer="defer"></script>
+
+
+<script src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
+
 <script src="http://code.jquery.com/jquery.min.js"></script>
+<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+  
+  
+
 <link rel="stylesheet" href="various_lessons.css">
     <link rel="stylesheet" href="various_lesson.js">
-
 
     
 
@@ -16,29 +29,50 @@
 
 <body>
 
-<div class="shopping_list">
+    
+<div id="adder">
+<input type="text" name="add1" /><br />
+<input class='btn' type='submit' value='Submit' />
+</div>
 
-    <ul id="names">
-        <li>Carrot</li>
-         <li>Onion</li>
-         <li>Water</li>
+<ul id="names"><h3>Needed Items</h3>
+        <li class="ui-state-default">Carrot</li>
+        <li class="ui-state-default">Onion</li>
+        <li class="ui-state-default">Water</li>
+         
   
     </ul>
     
     
     
-    <ul id="places">
-        <li>London</li>
-         <li>New York</li>
-         <li>Chicago</li>
+    <ul id="places"><h3>Home Items</h3>
+        <li class="ui-state-default">London</li>
+        <li class="ui-state-default">New York</li>
+        <li class="ui-state-default">Chicago</li>
+         
   
     </ul>
+
+  <ul id="sale"><h3>On Sale Items</h3>
+        <li class="ui-state-default">potato</li>
+        <li class="ui-state-default">rum</li>
+        <li class="ui-state-default">Coke</li>
+         
+  
+    </ul>
+    
+
+ 
+
+      
+
+<script src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
     
 
 <div id="sort_status"> </div>
 
 
-</div>
+
 
 <!-- Multiple selectors top shows specific ID OR CLASS. Bottom shows how to select everything.
 
