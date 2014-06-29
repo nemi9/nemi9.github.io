@@ -1,0 +1,152 @@
+﻿body{
+	width:100%;
+	background: #CC9;
+	margin: 0px auto;
+        text-align: center;
+	
+}
+
+
+
+
+
+
+
+.editable input[type=submit] {
+  color: #F00;
+  font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+#names{ 
+         list-style-type: none; 
+          margin:0px; 
+          padding: 20px;
+          width: 100%; 
+          float:left;
+         
+
+}
+
+#home{ 
+         list-style-type: none; 
+         margin: 3px; 
+         padding: 20px;
+         width: 100%; 
+         float:left;
+        
+}
+
+#purchased{ 
+       list-style-type: none; 
+        margin: 3px; 
+        padding: 20px;
+        width: 100%; 
+        float:left;
+        
+}
+     
+#names li, #home li, #purchased li{ 
+         margin: 10px 10px 10px 10px; 
+         padding: 0.4em; 
+         padding-left: 0.5em; 
+         font-size: 18px; 
+         height: 16px; 
+
+}
+      
+.ui-state-default {
+         background: #cedc98;
+         border: 1px solid #DDDDDD;
+         color: #333333;
+}
+
+.box1,.box2,.box3{
+    
+    display:inline-block;
+    margin: 50px 50px 50px 50px; 
+    padding: 0.9em; 
+    padding-left: 0.9em; 
+    font-size: 38px; 
+    height: 10px; 
+
+}
+
+
+
+.box1{ 
+          top:10px;
+          left:10px;
+          bottom:auto;
+          right:auto;
+          text-decoration: underline;
+}
+
+
+.box2{ 
+          top: -20px;
+          left:10px;
+          bottom:auto;
+          right:auto;
+          text-decoration: underline;
+}
+
+
+.box3{ 
+          top:-32px;
+          left:10px;
+          bottom:auto;
+          right:auto;
+          text-decoration: underline;
+}
+
+
+#sort_status{  
+    background: #cedc98;
+    border: 1px solid #DDDDDD;
+    color: #333333;
+     margin: 5px 5px 5px 5px; 
+     padding: 1.4em; 
+     padding-left: .5em; 
+     font-size: 20px; 
+     height: 16px;
+     word-spacing: .45em;
+    
+    
+}
+
+.sortBox{
+    
+    top:600px;
+    left:0px;
+    bottom:0px;
+    right:40px;
+    position:relative;
+    word-spacing: .45em;
+
+}
+    
+ h2{ 
+    top:610px;
+    left:40px;
+    bottom:0px;
+    right:40px;
+    font-size: 30px;
+    position:relative;
+       
+}

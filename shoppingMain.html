@@ -1,32 +1,28 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿
+<!DOCTYPE HTML>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-<script src="http://code.jquery.com/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.js"></script>
-
-
-    <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
-
-   
-	<link rel="stylesheet" href="shoppinglist.css">
-    <link rel="stylesheet" href="shoppinglist2.js">
-    
-
-	
-
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="Shopping_mains.css">
     
     
-<title>Shopping List</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+    <script src="jquery.js"></script>    
+    <script src="shopping_main.js"></script>
 </head>
 
-
 <body>
+
+<header>
 <div id="adder">
-<input type="text" name="add1" /><br />
+<input type="text" name="add1"  size="65"/><br />
 <input class='btn' type='submit' value='Submit' />
 </div>
+
+</header>
+
+
+<section>
 
 <div class="box1">
 <h3>Needed Items</h3>
@@ -51,7 +47,7 @@
   
     </ul>
 </div>
-  
+ 
 
 <div class="box3">
 <h3>Purchased Items</h3>
@@ -67,10 +63,14 @@
 
 
 
- 
+  <script src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
 
+</section>
 
-<h2><u>Current Purchased Items</u></h2>
+<footer>
+   <h2><u>Current Purchased Items</u></h2>
+
+	
 
 <div class="sortBox">
 <div id="sort_status">
@@ -78,15 +78,7 @@
     </div>
 
 
-
-     <script src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
-
-
-
-
-
-
-    
+</footer>
 
 </body>
 </html>
