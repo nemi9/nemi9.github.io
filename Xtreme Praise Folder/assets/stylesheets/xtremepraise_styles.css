@@ -184,9 +184,13 @@ h5 {
 }
 
 .tagline {
-  margin: 56px 0 22px 0;
-  text-align: right;
-  display:inline-block;
+ margin:auto 0;
+  text-align: center;
+  position: relative;
+  top:90px;
+  left:-430px;
+  right:50px;
+  bottom:auto;
   
 }
 
@@ -225,7 +229,8 @@ h5 {
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
-  top:auto;
+  position:relative;
+  top:200px;
 	left:50px;
 	bottom:auto;
 	right:auto;
@@ -306,7 +311,7 @@ img {
 img {
   height: 200px;
   width: 200px;
-  display: block;
+  display: block;}
 
 
 /*

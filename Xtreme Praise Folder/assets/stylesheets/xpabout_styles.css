@@ -74,7 +74,7 @@ cite, em {
 body {
   width:1200px;
   margin:0 auto;
-  background: #293f50;
+  background: #F69;
    color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   
@@ -188,9 +188,14 @@ h5 {
 }
 
 .tagline {
-  margin: 56px 0 22px 0;
-  text-align: right;
-  display:inline-block;
+  margin:auto 0;
+  text-align: center;
+  position: relative;
+  top:90px;
+  left:-430px;
+  right:50px;
+  bottom:auto;
+  
   
 }
 
@@ -202,8 +207,8 @@ h5 {
 }
 .container {
   padding-left: 2px;
-  padding-right: 2px;
-  font-size:18px;
+  padding-right: 1px;
+  font-size:15px;
 }
 
 .primary-header a,
@@ -234,7 +239,8 @@ h5 {
   font-weight: 400;
   letter-spacing: .5px;
   text-transform: uppercase;
-  top:auto;
+  text-align:right;
+  top:200px;
 	left:50px;
 	bottom:auto;
 	right:auto;
@@ -253,7 +259,7 @@ h5 {
 
 
 .hero { 
-color: #fff;
+  color: #fff;
   line-height: 44px;
   padding: 5px 10px 40px 5px;
   text-align: center;
@@ -263,7 +269,7 @@ color: #fff;
   font-size: 36px;
 }
 .hero p {
-  font-size: 24px;
+  font-size: 19px;
   font-weight: 65;
   padding: 35px 10px 40px 5px;
 }
