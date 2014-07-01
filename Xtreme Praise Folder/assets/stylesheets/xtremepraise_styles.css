@@ -72,7 +72,7 @@ cite, em {
 body {
   width:1200px;
   margin:0 auto;
-  background: #293f50;
+  background: #936;
    color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   
@@ -444,3 +444,26 @@ a:hover {
 p a {
   border-bottom: 1px solid #dfe2e5;
 }
+
+
+
+
+
+.teaser img {
+  border-radius: 2px;
+  display: inline-block;
+  margin-bottom: 30px;
+  left:60px;
+  height: 200px;
+  width: 200px;
+  position:relative;
+}
+
+.teaser p{
+display:inline-block;	
+	}
+
+
+
+
+

@@ -74,7 +74,7 @@ cite, em {
 body {
   width:1200px;
   margin:0 auto;
-  background: #F69;
+  background:#936; 
    color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   
@@ -285,7 +285,7 @@ img {
 img {
   height: 200px;
   width: 200px;
-  display: block;
+  
 }
 
 
@@ -355,6 +355,11 @@ img {
   background: #fff;
   padding: 33px 0 33px 0;
   width:100%;
+  top:auto;
+	left:auto;
+	bottom:auto;
+	right:50px;
+  
 }
 
 .row,
@@ -419,4 +424,46 @@ a:hover {
 }
 p a {
   border-bottom: 1px solid #dfe2e5;
+}
+
+
+/*
+  ========================================
+  Hosts
+  ========================================
+*/
+  
+.speaker-info {
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding: 22px 0;
+  text-align: left;
+   display: inline-block;
+   top:120px;
+   left:auto;
+   right:-50px;
+   bottom:0px;
+   position:relative;
+}
+
+.speaker {
+    margin-bottom: 44px;
+    display: inline-block;
+	width:100%;
+	
+}
+
+.speaker p, h5,h2{
+  text-align:left;
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+  margin-bottom: 44px;
+}
+.aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+  padding: 22px 0;
 }
