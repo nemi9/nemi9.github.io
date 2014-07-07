@@ -1,10 +1,7 @@
 ﻿
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE HTML>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-
     <title>Shopping List</title>
     <link rel="stylesheet" href="Shopping_mains.css">
     
@@ -25,11 +22,25 @@
 </header>
 
 
-<section>
+<section class= "text1">
+<p>Enter item and press the submit button to add items into needed list</p>
+<p>Click mouse down on item to drag item into a different list</p>
+<p>Click on the outside right or left of any list item to edit item </p>
+<p>Click on the outside of the edited item to save changes</p>
+<p>Press the enter button to add a empty item type into a list</p>
+<p>Press backspace button to delete item<p>
+
+</section>
+
+
+
+<section class="editable">
+
+
 
 <div class="box1">
 <h3>Needed Items</h3>
-<ul id="names">
+<ul id="names" contenteditable="true"/>
         <li class="ui-state-default">Carrot</li>
         <li class="ui-state-default">Onion</li>
         <li class="ui-state-default">Water</li>
@@ -42,10 +53,11 @@
     
   <div class="box2"> 
     <h3>Home Items</h3>
-    <ul id="home">
+    <ul id="home"contenteditable="true"/>
         <li class="ui-state-default">Cookies</li>
         <li class="ui-state-default">Milk</li>
         <li class="ui-state-default">Chicken</li>
+       
          
   
     </ul>
@@ -54,7 +66,7 @@
 
 <div class="box3">
 <h3>Purchased Items</h3>
-  <ul id="purchased">
+  <ul id="purchased" contenteditable="true"/>
         <li class="ui-state-default">Potato</li>
         <li class="ui-state-default">Rum</li>
         <li class="ui-state-default">Coke</li>

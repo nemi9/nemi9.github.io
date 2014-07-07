@@ -10,6 +10,35 @@
 
 
 
+
+
+.editable input[type=submit] {
+  color: #F00;
+  font-weight: bold;
+
+
+
+
+
+
+}
+
+
+
+
+.text1{
+	text-align: center;
+	background-color:#B1CB90;
+	
+	
+	
+	}
+
+
+
+
+
+
 #names{ 
          list-style-type: none; 
           margin:0px; 
@@ -127,3 +156,4 @@
     position:relative;
        
 }
+

@@ -5,11 +5,15 @@
         var $li = $("<li class='ui-state-default'/>").text(text);
         $("#names").append($li);
         $("#names").sortable('refresh');
+		
     });
 
 
+  
+ 
 
     $("#names").sortable({
+		
         containment: 'document', 
         tolerance: 'pointer',
         cursor: 'pointer', 
@@ -21,6 +25,16 @@
             
         }
      }); 
+	 
+	 
+	 
+	
+		 
+		 
+		 
+		 
+		 
+		 
      $("#home").sortable({
         containment: 'document', 
         tolerance: 'pointer',
@@ -55,6 +69,19 @@
           }
      
     });
+	
+	
+	
+	
+      $("#home, #names, #purchased").editInPlace({
+		callback: function(unused, enteredText) { return enteredText; },
+		 //url: './server.php',
+		show_buttons: true
+	  
+	});
+	
+	
+	
 
 
 });
